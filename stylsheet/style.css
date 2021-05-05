@@ -1,0 +1,366 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box; font-family: 'Poppins', sans-serif;;
+}
+a {text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+i{
+    color: #2fccd0;
+}
+.exta-div h2, .servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0px 15px 0px;
+    line-height:1.1 ;
+    font-weight: bold;
+    word-spacing: 4px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)) ,url('../Images/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: polygon(0%0%,100%0%,100%70%,50%100%,0%70%);
+    position: relative;
+}
+.header::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: .3;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%)
+    
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: .3;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%)}
+.nav-item a{
+    color: #fff;
+    font-weight: bold;
+}
+.heder-section{
+    width: 100%;
+    height:inherit;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+.center-div{
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+  position:absolute;
+   transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+}
+.heder-button a{
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 35px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    outline: none;
+    
+    text-align: center;
+}
+.heder-button a:hover{
+    background-color: white;
+    color: #50d1c0;
+    text-decoration: none;
+    box-shadow: 0px 0px 20px 0x rgba(0, 0, 0, .3);
+}
+.center-div p {
+    font-size:1.3rem ;
+    padding: 10px 0px 20px 0px ;
+    color: white;
+}
+.header-extra-div{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 35px 0px;
+    
+}
+.exta-div{
+    background-color: white;
+    padding: 30px!important;
+    border-radius: 3px;
+    border: medium none;
+    transition:0.3s ; 
+    
+    
+}
+.exta-div:hover{
+    box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+/*******service section start*******/
+.service-section{
+    background: #f7f7f9;
+    padding: 50px 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.headings{
+    margin-bottom: 30px !important;   
+}
+.headings h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform:uppercase;
+    font-weight: bold;
+}
+.service-icon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.progress{
+    height: 0.6rem!important;
+    margin-bottom: 25px!important;
+    background: #606060;
+}
+/*******service section end*******/
+/*******project done start*******/
+.projectdone{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 40px 0px;
+}
+.projectdone h1{
+    font-size: 2rem;
+    text-align: center;
+}
+/*******project done end*******/
+/******** our pricing start*********/
+
+.pricing-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 50px 50px 30px 50px;
+  
+}
+.pricing-section::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+   
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:linear-gradient(160deg,#16c9f6 55%,#fff 0%)}
+
+    .headings h1{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      
+           
+    }
+    .money{
+        font-size: 40px;
+        line-height: 1;
+        color: #606060;
+    }
+    .card{
+        transition: 0.4s ease;
+    }
+    .card-header
+    {
+        background-color: #fff!important;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 15px 9px!important;
+    }
+    .card-body{
+        padding: 30px 0px;
+    }
+    .card-body li{
+        font-size:15px ;
+        font-weight:400 ;
+        line-height:1.6 ;
+        margin: 10px 0px;
+        color: #606060;
+    }
+    .card-footer{
+        background-color: #fff!important;
+        padding: 25px 0px !important;  
+    }
+    .card-footer a{
+        border: 1px solid #50d1c0;
+        border-radius: 100px;
+        margin: 0px 5px;
+        padding: 12px 25px;
+        color: #50d1c0;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4;
+        outline: none;
+        
+        text-align: center;
+    }
+    .card:hover .card-footer a{
+        background-color: #50d1c0;
+        color: #fff;
+        text-decoration: none;
+        box-shadow: 0px 0px 20px 0x rgba(0, 0, 0, .3);
+    }
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 20px 0x rgba(0, 0, 0, .3);
+}
+.card:hover .money ,.card:hover .card-header{
+    color: #50d1c0;
+}
+.constant-card{
+    transform: translateY(-20px); 
+}
+/******** our pricing END*********/
+/******** our Happy client start*********/
+.Happy-client{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 0px 0px 0px; 
+  
+}
+.box{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+.box:hover p{
+    color: white;
+}
+.box:hover{
+    background:#16c9fc;
+
+}
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+.carousel-indicators li{
+    background-color:#16c9fc!important;
+}
+/**make image round shape and at center**/
+.box a{
+    position: relative;
+}
+.box a img{
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+.box a::after{
+    content: "\f10d";
+    font-family:FontAwesome;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6);
+    color: white;
+    position: absolute;
+   top: 25px;
+   left: 90px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.box h1
+{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #000;
+}
+.box h2
+{
+    font-size: 13px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+.contactus{
+   width: 100%;
+   height: 100vh;
+    margin: 5px;
+    padding: 10px;
+position: relative;
+  
+}
+.contactus::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background:linear-gradient(330deg,#16c9f6 55%,#fff 0%)}
+    .btnsubmit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  .btnsubmit button{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 25px;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    outline: none;
+    background-color:transparent;
+  }
+  .btnsubmit button:hover{
+    color:#50d1c0 ;
+  }
+  form:hover .btnsubmit button{
+      background-color: #fff;
+      color:#50d1c0 ;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0,0,0.3);
+
+    }
+    ::placeholder{
+        font-size: 0.85rem;
+    }
+/********  our Happy client END*********/
